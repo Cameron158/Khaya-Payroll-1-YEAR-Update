@@ -1,4 +1,4 @@
-# Khaya Payroll — POPIA & SOC 2 Readiness Assessment
+# Khaya Payroll — Year 1 Update COBIT and ITIL 4 Assessment
 ## Year 1 Review | GRC Portfolio Project
 
 A hands-on GRC portfolio project simulating a real-world compliance readiness assessment and annual review cycle for a fictional South African HR/Payroll SaaS company, **Khaya Payroll (Pty) Ltd**.
