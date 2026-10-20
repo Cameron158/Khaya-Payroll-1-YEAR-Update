@@ -71,58 +71,37 @@ The Year 2 COBIT assessment targets Level 3 for most governance objectives, with
 
 ### EDM01: Governance Framework Setting and Maintenance
 
-**Objective summary:** Leadership must establish and maintain a governance
-framework defining how IT decisions are made, who holds authority, how
-performance is monitored, and how IT governance aligns to overall business
-objectives.
+**Objective summary:** Leadership must establish and maintain a governance framework defining how IT decisions are made, who holds authority, how performance is monitored, and how IT governance aligns to overall business objectives.
 
-**Current state (Month 12):** Khaya Payroll has established foundational
-governance elements — a registered Information Officer, CEO-approved
-policies, and monthly and quarterly review cadences — but has not yet
-defined a formal IT governance framework governing how all IT decisions
-are made, escalated, and aligned to business objectives. Major IT
-decisions (infrastructure investments, vendor selection, system changes)
-are currently made informally by a small group of individuals (CEO, IO,
-IT Head) without a structured decision-making process, defined authority
-matrix, or board-level IT oversight. The monthly and quarterly review
-cadence established in Year 1 provides operational monitoring of security
-controls, but does not constitute a governance framework — it lacks the
-strategic direction-setting, resource allocation oversight, and
-performance-against-objectives evaluation that a formal IT governance
-structure would require.
+**Current state (Month 12):** Khaya Payroll has established foundational governance elements — a registered Information Officer, CEO-approved policies, and monthly and quarterly review cadences — but has not yet defined a formal IT governance framework governing how all IT decisions are made, escalated, and aligned to business objectives. Major IT decisions (infrastructure investments, vendor selection, system changes) are currently made informally by a small group of individuals (CEO, IO, IT Head) without a structured decision-making process, defined authority matrix, or board-level IT oversight. The monthly and quarterly review cadence established in Year 1 provides operational monitoring of security controls, but does not constitute a governance framework — it lacks the strategic direction-setting, resource allocation oversight, and performance-against-objectives evaluation that a formal IT governance structure would require.
 
-**Current maturity:** Level 2 (Managed) — Khaya Payroll has progressed
-beyond informal, ad hoc IT governance (Level 1) through the establishment
-of an Information Officer role, CEO-approved policies, and structured
-review cadences. However, Level 3 has not been achieved because no
-formal, documented IT governance framework exists that defines
-decision-making authority, escalation paths, or how IT strategy aligns
-to business objectives — governance remains dependent on a small group
-of individuals rather than a standardized, repeatable process.
+**Current maturity:** Level 2 (Managed) — Khaya Payroll has progressed beyond informal, ad hoc IT governance (Level 1) through the establishment of an Information Officer role, CEO-approved policies, and structured review cadences. However, Level 3 has not been achieved because no formal, documented IT governance framework exists that defines decision-making authority, escalation paths, or how IT strategy aligns to business objectives — governance remains dependent on a small group of individuals rather than a standardized, repeatable process.
 
-**Target maturity:** Level 2 (Managed) — Level 2 remains the appropriate
-target for Year 2 given Khaya Payroll's size and competing remediation
-priorities. However, as the company scales toward 300+ clients and 70+
-staff, the current informal governance model will become inadequate and
-Level 3 will need to be targeted in Year 3.
+**Target maturity:** Level 2 (Managed) — Level 2 remains the appropriate target for Year 2 given Khaya Payroll's size and competing remediation priorities. However, as the company scales toward 300+ clients and 70+ staff, the current informal governance model will become inadequate and Level 3 will need to be targeted in Year 3.
 
-**Gap:** No formal IT governance framework or decision rights document
-exists. The CC1 role review (scheduled at Month 6) is overdue at Month 12.
+**Gap:** No formal IT governance framework or decision rights document exists. The CC1 role review (scheduled at Month 6) is overdue at Month 12.
 
-**Recommendation:** Conduct the overdue CC1 role review to formally assess
-whether Khaya Payroll's 54% staff growth and increasing compliance
-obligations now warrant a dedicated Security Lead, rather than continuing
-to extend the IO's mandate indefinitely. Additionally, produce a
-lightweight decision rights document (one page) capturing who holds
-authority for each category of IT decision (infrastructure, vendor
-selection, system changes, policy approval) and when escalation to CEO
-level is required — providing a practical governance reference
-proportionate to Khaya Payroll's current size, without the overhead of
-a full IT governance framework.
+**Recommendation:** Conduct the overdue CC1 role review to formally assess whether Khaya Payroll's 54% staff growth and increasing compliance obligations now warrant a dedicated Security Lead, rather than continuing to extend the IO's mandate indefinitely. Additionally, produce a lightweight decision rights document (one page) capturing who holds authority for each category of IT decision (infrastructure, vendor selection, system changes, policy approval) and when escalation to CEO level is required — providing a practical governance reference proportionate to Khaya Payroll's current size, without the overhead of a full IT governance framework.
 
 ---
 
-*Remaining objectives (EDM03, EDM05, APO01, APO12, APO13, BAI06, BAI10,
+## EDM03: Risk Optimisation
+
+**Objective summary:** Leadership must ensure the organization's risk appetite and tolerance are defined and understood, that IT-related risk is identified and managed within those boundaries, and that risk information is reported to leadership on an ongoing, scheduled basis — not only when incidents occur.
+
+**Current state (Month 12):** Khaya Payroll has not defined a formal risk appetite or risk tolerance statement — there is no documented position on how much risk leadership is willing to accept before escalation or action is required. While a risk register exists (v1 and v2, 24 risks with 8 closed) and monthly and quarterly reviews have been established per CC3, IT-related risk is reported to leadership reactively rather than on a defined, scheduled basis. The Month 7 incident illustrates this gap: leadership was not proactively aware of the client-side bulk-email handling risk before it materialised — it only became visible when the incident occurred, rather than through a structured risk reporting mechanism that might have surfaced it earlier. The existing review cadence provides operational monitoring of controls, but does not constitute risk optimisation — it lacks a defined appetite against which risk decisions can be measured, and does not deliver a structured risk report to leadership.
+
+**Current maturity:** Level 2 (Managed) — a risk register exists and monthly and quarterly review cadences have been established, representing clear progress beyond purely reactive risk management (Level 1). However, Level 3 has not been achieved because no formal risk appetite or tolerance statement has been defined, and IT-related risk is not reported to leadership on a structured, scheduled basis — leadership visibility remains event-driven rather than systematic.
+
+**Target maturity:** Level 3 (Established) — unlike EDM01, Level 3 is an appropriate and achievable target for Year 2, because the risk register and review cadence already exist. The missing pieces are documentary and procedural rather than structural: a formal risk appetite statement and a defined quarterly reporting schedule. Both are relatively low-lift given the foundations already in place.
+
+**Gap:** No formal risk appetite or tolerance statement exists, and no scheduled IT risk reporting mechanism to leadership is in place. Risk information reaches leadership only when an incident occurs.
+
+**Recommendation:** The Information Officer drafts a one-page risk appetite statement for CEO approval — zero tolerance for risks to the confidentiality or integrity of employee PII and payroll data (ID numbers, banking details), low tolerance for platform availability risks given contractual monthly payroll deadlines, and moderate tolerance for operational and process risks with no direct client data or payroll impact. Additionally, the IO should present a quarterly risk report to the executive leadership team in slide-deck format, structured around the three appetite tiers, with zero-tolerance exceptions tabled first and risk register movement (new, closed, re-rated risks) reported against the prior quarter.
+
+---
+
+*Remaining objectives (EDM05, APO01, APO12, APO13, BAI06, BAI10,
 DSS02, DSS04, DSS05, MEA01, MEA03) in progress.*
 
 ---
